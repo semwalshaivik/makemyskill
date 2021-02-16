@@ -1,0 +1,68 @@
+html, body{
+  font-family: 'Poppins', sans-serif;
+  margin:0px 0px 0px 0px;
+  height:100%;
+}
+#div1 /*This is the topmost panel*/{
+  padding:20px 80px 0 10px;
+  height:60px;
+  background-color:white;
+  margin:0px;
+}
+.row {
+  display: flex;
+}
+div.column2/*for two  horinzontal columns*/ {
+  flex: 50%;
+}
+#div11 {
+  width:50%;
+  height:100%;
+  text-align:right;
+  margin:14px 0px 0px 0px;
+}
+#hlist1 {
+  list-style-type:none;
+  padding:0px;
+  margin:0;
+  overflow:none;
+  background-color:white;
+}
+li {
+  float: right;
+}
+li a {
+  display:block;
+  color:black;
+  text-align:center;
+  padding:10px;
+  text-decoration:none;
+}
+li a:hover {
+  background-color:lightgreen;
+}
+#divryd {
+  padding:120px 0 0 10px;
+  width:50%;
+}
+h1.headings {
+  font-size:50px;
+  font-weight:650;
+}
+#pryd {
+  padding:60px 0 0 0;
+}
+#butkm {
+  margin:40px 10px;
+  padding:5px 20px 5px 20px;
+}
+div.column4 {
+  flex: 25%;
+}
+div.column3{
+  padding:0 10px;
+  flex: 33%;
+}
+#divserv {
+  padding:50px 5px 0 5px;
+}
